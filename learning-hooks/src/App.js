@@ -7,6 +7,8 @@ import TodoForm from "./components/TodoForm";
 import PostList from "./components/PostList";
 import Pagination from "./components/Pagination";
 import PostFiltersForm from "./components/PostFiltersForm";
+import Clock from "./components/Clock";
+import BetterClock from "./components/BetterClock";
 
 function App() {
   const [todoList, setTodoList] = useState([
@@ -97,6 +99,12 @@ function App() {
         pagination={pagination}
         onPageChange={handlePageChange}
       />
+
+      <h3>Clock</h3>
+      <Clock />
+
+      <h3>Better Clock</h3>
+      <BetterClock />
     </div>
   );
 }
