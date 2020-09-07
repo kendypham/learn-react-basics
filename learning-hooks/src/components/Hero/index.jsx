@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 
 Hero.propTypes = {
   name: PropTypes.string,
+  data: PropTypes.array,
 };
 
 Hero.defaultProps = {
   name: '',
+  data: []
 }
 
 function Hero(props) {
