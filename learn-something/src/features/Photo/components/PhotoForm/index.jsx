@@ -58,7 +58,7 @@ function PhotoForm(props) {
             />
 
             <FormGroup>
-              <Button type="submit" color="primary">Add to album</Button>
+              <Button type="submit" color="primary">Add to album</Button> 
             </FormGroup>
           </Form>
         );
