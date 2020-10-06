@@ -37,11 +37,11 @@ function MainPage(props) {
           <Link to="/photos/add">Add new photo</Link>
         </div>
 
-        <PhotoList
+        {/* <PhotoList
           photoList={photos}
           onPhotoEditClick={handlePhotoEditClick}
           onPhotoRemoveClick={handlePhotoRemoveClick}
-        />
+        /> */}
       </Container>
     </div>
   );
